@@ -1,0 +1,24 @@
+{
+  "name": "shrestr3-fe-fwk-project",
+  "version": "1.0.0",
+  "description": "A project to learn how to write a frontend framework",
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravshrestha9/shrestr3-fe-fwk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravshrestha9/shrestr3-fe-fwk/issues"
+  },
+  "homepage": "https://github.com/ravshrestha9/shrestr3-fe-fwk#readme",
+  "workspaces": [
+    "packages/runtime"
+  ],
+  "scripts": {
+    "serve:examples": "npx http-server . o ./examples/"
+  }
+}
