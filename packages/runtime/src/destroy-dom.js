@@ -10,7 +10,7 @@ export function destroyDOM(vdom) {
             break
         }
         
-        case DOM_TYPES.TEXT: {
+        case DOM_TYPES.ELEMENT: {
             removeElementNode(vdom)
             break
         }
@@ -45,7 +45,7 @@ function removeElementNode(vdom) {
 
 }
 
-function removeFragmentNodes(vdom) {
+function removeFragmentNode(vdom) {
     const { children } = vdom
     children.forEach(destroyDOM)
 }

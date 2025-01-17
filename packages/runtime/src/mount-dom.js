@@ -1,5 +1,5 @@
 import { DOM_TYPES } from "./h";
-import { setAttributes } from '/attributes'
+import { setAttributes } from './attributes'
 import { addEventListeners } from './events'
 
 export function mountDOM(vdom, parentEl){
